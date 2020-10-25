@@ -1,13 +1,10 @@
 {
-    "name": "ash-dark-theme",
-    "displayName": "ash theme",
-    "description": "Dark theme by Mido",
+    "name": "uplift-dark-theme",
+    "displayName": "Uplift theme",
+    "description": "Colorful dark theme for vscode.",
     "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.50.0"
-    },
     "publisher": "mido-tawy",
-    "icon": "theme_icon.png",
+    "icon": "images/theme_icon.png",
     "license": "MIT",
     "author": {
         "name": "Mohammed Tantawy",
@@ -16,12 +13,13 @@
     "categories": [
         "Themes"
     ],
+    "homepage": "https://github.com/motawy/uplift-dark-theme/blob/main/README.md",
     "repository": {
-        "url": "https://gitlab.com/mohammed.tantawy/ash-dark-theme-vs-code",
+        "url": "https://github.com/motawy/uplift-dark-theme/tree/main",
         "type": "git"
     },
     "bugs": {
-        "url": "https://gitlab.com/mohammed.tantawy/ash-dark-theme-vs-code/-/issues",
+        "url": "https://github.com/motawy/uplift-dark-theme/issues",
         "email": "mtantawy.mido@gmail.com"
     },
     "galleryBanner": {
@@ -31,20 +29,23 @@
     "keywords": [
         "Theme",
         "Dark Theme",
-        "Ash Theme",
+        "Uplift Theme",
         "Contrast Theme"
     ],
+    "engines": {
+        "vscode": "^1.50.0"
+    },
     "contributes": {
         "themes": [
             {
-                "label": "Ash",
+                "label": "Uplift - Original",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ash-color-theme.json"
+                "path": "./themes/uplift-color-theme.json"
             },
             {
-                "label": "Ash - Italics",
+                "label": "Uplift - Italics",
                 "uiTheme": "vs-dark",
-                "path": "./themes/ash-italics-color-theme.json"
+                "path": "./themes/uplift-italics-color-theme.json"
             }
         ]
     }

@@ -1,36 +1,38 @@
-# Ash theme
+# Uplift theme
 
-<!-- [![Version](https://vsmarketplacebadge.apphb.com/version/mido-tawy.ash-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.ash-dark-theme)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/mido-tawy.ash-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.ash-dark-theme)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/mido-tawy.ash-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.ash-dark-theme) -->
+<!-- [![Version](https://vsmarketplacebadge.apphb.com/version/mido-tawy.uplift-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/mido-tawy.uplift-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/mido-tawy.uplift-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme) -->
 
-A Visual Studio Code theme that personally allow me to focus more. Better suited for those who like to code late into the night or simply like dark themes. Color choices are personal and as v0.0.1 subject to change with use, experiences and suggestions. ✨
+A Visual Studio Code theme that personally allow me to focus more. The idea is that colors can allow us to identify things quicker and that helps me. Better suited for those who like to code late into the night or simply like dark themes. Color choices are personal and as v0.0.1 subject to change with use, experiences and suggestions. ✨
 
 ## Installation
 
 1.  Install [Visual Studio Code](https://code.visualstudio.com/)
 2.  Launch Visual Studio Code
 3.  Choose **Extensions** from menu
-4.  Search for `ash theme`
+4.  Search for `uplift theme`
 5.  Click **Install** to install it
 6.  Click **Reload** to reload the Code
-7.  From the menu bar click: Code > Preferences > Color Theme > **Ash Theme**
+7.  From the menu bar click: Code > Preferences > Color Theme > **Uplift Theme**
 
 ## Screenshot
 Screenshot of Typescript
-![Theme Screenshot](code_sample_0.0.1a.png)
+![Theme Screenshot](images/code_sample_0.0.1a.png)
 
 ## Misc
 
-This is my first time creating a theme, so if you see something wrong, please feel free to [file an issue](https://gitlab.com/mohammed.tantawy/ash-dark-theme-vs-code/-/issues)!
-
-The reason why I choose to publish on GitLab is because the images on vscode marketplace won't render since the path still points to 'master' instead of 'main' from the change made by GitHub. 
+This is my first time creating a theme, so if you see something wrong, please feel free to [file an issue](https://github.com/motawy/uplift-dark-theme/issues)!
 
 Settings used for font
-```sh
+```json
 "editor.fontFamily": "FiraCode-Retina",
 "editor.fontLigatures": true,
 ```
+## Note
+
+The image might break on the marketplace since it points directly on 'master' which is no longer available. You can find the sample images [here](https://github.com/motawy/uplift-dark-theme/tree/main/images).
+Also if you know how to fix this let me know! 🙌
 
 ## Attributions
 
