@@ -4,6 +4,8 @@
 [![Installs](https://vsmarketplacebadge.apphb.com/installs/mido-tawy.uplift-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating/mido-tawy.uplift-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme)
 
+<img src="images/theme_icon.png" height="150px" width="150px" style="display: block;margin-left: auto;margin-right: auto;"/>
+
 A Visual Studio Code theme that personally allow me to focus more. The idea is that colors can allow us to identify things quicker and that helps me. Better suited for those who like to code late into the night or simply like dark themes. Color choices are personal and as v0.0.1 subject to change with use, experiences and suggestions. ✨
 
 ## Installation
