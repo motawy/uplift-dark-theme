@@ -1,20 +1,50 @@
 {
     "name": "ash-dark-theme",
-    "displayName": "ash.dark-theme",
+    "displayName": "ash theme",
     "description": "Dark theme by Mido",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.50.0"
     },
+    "publisher": "mido-tawy",
+    "icon": "theme_icon.png",
+    "license": "MIT",
+    "author": {
+        "name": "Mohammed Tantawy",
+        "email": "mtantawy.mido@gmail.com"
+    },
     "categories": [
         "Themes"
+    ],
+    "repository": {
+        "url": "https://gitlab.com/mohammed.tantawy/ash-dark-theme-vs-code",
+        "type": "git"
+    },
+    "bugs": {
+        "url": "https://gitlab.com/mohammed.tantawy/ash-dark-theme-vs-code/-/issues",
+        "email": "mtantawy.mido@gmail.com"
+    },
+    "galleryBanner": {
+        "color": "#201e31",
+        "theme": "dark"
+    },
+    "keywords": [
+        "Theme",
+        "Dark Theme",
+        "Ash Theme",
+        "Contrast Theme"
     ],
     "contributes": {
         "themes": [
             {
                 "label": "Ash",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Ash-color-theme.json"
+                "path": "./themes/ash-color-theme.json"
+            },
+            {
+                "label": "Ash - Italics",
+                "uiTheme": "vs-dark",
+                "path": "./themes/ash-italics-color-theme.json"
             }
         ]
     }
