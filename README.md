@@ -24,7 +24,7 @@ Screenshot of Typescript
 
 This is my first time creating a theme, so if you see something wrong, please feel free to [file an issue](https://gitlab.com/mohammed.tantawy/ash-dark-theme-vs-code/-/issues)!
 
-The reason why I choose to publish on GitLab is because the images won't render since the path still points to 'master' instead of 'main' since the change.
+The reason why I choose to publish on GitLab is because the images on vscode marketplace won't render since the path still points to 'master' instead of 'main' from the change made by GitHub. 
 
 Settings used for font
 ```sh
