@@ -2,7 +2,7 @@
     "name": "uplift-dark-theme",
     "displayName": "Uplift theme",
     "description": "Colorful dark theme for vscode.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "mido-tawy",
     "icon": "images/theme_icon.png",
     "license": "MIT",
