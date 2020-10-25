@@ -1,8 +1,8 @@
-# Carbon theme
+# Ash theme
 
-<!-- [![Version](https://vsmarketplacebadge.apphb.com/version/mido-tawy.carbon-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.carbon-theme)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/mido-tawy.carbon-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.carbon-theme)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/mido-tawy.carbon-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.carbon-theme) -->
+<!-- [![Version](https://vsmarketplacebadge.apphb.com/version/mido-tawy.ash-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.ash-dark-theme)
+[![Installs](https://vsmarketplacebadge.apphb.com/installs/mido-tawy.ash-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.ash-dark-theme)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating/mido-tawy.ash-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.ash-dark-theme) -->
 
 A Visual Studio Code theme that personally allow me to focus more. Better suited for those who like to code late into the night or simply like dark themes. Color choices are personal and as v0.0.1 subject to change with use, experiences and suggestions. ✨
 
