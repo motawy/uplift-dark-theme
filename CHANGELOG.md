@@ -2,6 +2,10 @@
 
 All notable changes to the "uplift-color-theme" extension are be documented in this file.
 
+## "0.0.4"
+
+- Add screenshot images path
+
 ## "0.0.3"
 
 - Add color combination for JSON

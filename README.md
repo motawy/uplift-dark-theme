@@ -1,30 +1,44 @@
-# Uplift theme
+<p align="center">
+  <img alt="Uplift Logo" src="https://raw.githubusercontent.com/motawy/uplift-dark-theme/main/images/theme_icon.png" width="200" />
+</p>
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/mido-tawy.uplift-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/mido-tawy.uplift-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating/mido-tawy.uplift-dark-theme.svg)](https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme)
+<h1 align="center">
+  Uplift Theme for VS Code
+</h1>
 
-<img src="images/theme_icon.png" height="150px" width="150px" style="display: block;margin-left: auto;margin-right: auto;"/>
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme">
+    <img alt="Version" src="https://vsmarketplacebadge.apphb.com/version/mido-tawy.uplift-dark-theme.svg" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme">
+    <img alt="Downloads" src="https://vsmarketplacebadge.apphb.com/downloads/mido-tawy.uplift-dark-theme.svg" />
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=mido-tawy.uplift-dark-theme">
+    <img alt="Installs" src="https://vsmarketplacebadge.apphb.com/installs/mido-tawy.uplift-dark-theme.svg" />
+  </a>
+</p>
 
 A Visual Studio Code theme that personally allow me to focus more. The idea is that colors can allow us to identify things quicker and that helps me. Better suited for those who like to code late into the night or simply like dark themes. Color choices are personal and as v0.0.1 subject to change with use, experiences and suggestions. ✨
 
-## Installation
+## Installation via VS Code
 
-1.  Install [Visual Studio Code](https://code.visualstudio.com/)
-2.  Launch Visual Studio Code
-3.  Choose **Extensions** from menu
-4.  Search for `uplift theme`
-5.  Click **Install** to install it
-6.  Click **Reload** to reload the Code
-7.  From the menu bar click: Code > Preferences > Color Theme > **Uplift Theme**
+1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
+2. Search for `Uplift`
+3. Click **Install** to install it
+4. Click **Reload** to reload the editor
+5. Code > Preferences > Color Theme > **Uplift**
 
 ## Screenshot
 
-Screenshot of React
-![Screenshot React](images/code_sample_0.0.1a.png)
+<p align="center">
+  <img alt="Screenshot - React" src="https://raw.githubusercontent.com/motawy/uplift-dark-theme/main/images/code_sample_0.0.1a.png" width="70%" />
+  <p align="center">Screenshot of React</p>
+</p>
 
-Screenshot of Typescript
-![Screenshot Typescript](images/code_sample_0.0.1b.png)
+<p align="center">
+  <img alt="Screenshot - Typescript" src="https://raw.githubusercontent.com/motawy/uplift-dark-theme/main/images/code_sample_0.0.1b.png" width="70%" />
+  <p align="center">Screenshot of Typescript</p>
+</p>
 
 ## Misc
 
@@ -35,10 +49,6 @@ Settings used for font
 "editor.fontFamily": "FiraCode-Retina",
 "editor.fontLigatures": true,
 ```
-## Note
-
-The image might break on the marketplace since it points directly on 'master' which is no longer available. You can find the sample images [here](https://github.com/motawy/uplift-dark-theme/tree/main/images).
-Also if you know how to fix this let me know! 🙌
 
 ## Attributions
 
