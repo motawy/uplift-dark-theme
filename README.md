@@ -17,8 +17,12 @@ A Visual Studio Code theme that personally allow me to focus more. The idea is t
 7.  From the menu bar click: Code > Preferences > Color Theme > **Uplift Theme**
 
 ## Screenshot
+
+Screenshot of React
+![Screenshot React](images/code_sample_0.0.1a.png)
+
 Screenshot of Typescript
-![Theme Screenshot](images/code_sample_0.0.1a.png)
+![Screenshot Typescript](images/code_sample_0.0.1b.png)
 
 ## Misc
 
