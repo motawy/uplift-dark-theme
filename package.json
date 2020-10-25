@@ -1,0 +1,21 @@
+{
+    "name": "ash-dark-theme",
+    "displayName": "ash.dark-theme",
+    "description": "Dark theme by Mido",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Ash",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Ash-color-theme.json"
+            }
+        ]
+    }
+}
