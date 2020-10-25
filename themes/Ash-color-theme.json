@@ -2,10 +2,43 @@
     "name": "Ash",
     "type": "dark",
     "colors": {
+        "widget.shadow": "#011627",
         "editor.background": "#201e31",
+        "sideBar.background": "#201e31",
+        "sideBar.border": "#413d64",
+        "sideBar.foreground": "#eeffff",
+        "activityBar.activeBackground": "#201e31",
+        "activityBar.background": "#413d64",
+        "activityBar.foreground": "#ffffff",
+        "tab.activeBackground": "#201e31",
+        "tab.activeBorderTop": "#c91267",
+        "tab.inactiveBackground": "#413d64",
+        "errorForeground": "#EF5350",
+        "dropdown.background": "#011627",
+        "dropdown.border": "#5f7e97",
+        "dropdown.foreground": "#ffffffcc",
+        "titleBar.activeBackground": "#201e31",
+        "titleBar.inactiveBackground": "#413d64",
+        "sideBarTitle.foreground": "#e1e4e8",
+        "sideBarSectionHeader.foreground": "#e1e4e8",
+        "sideBarSectionHeader.background": "#201e31",
+        "sideBarSectionHeader.border": "#413d64",
         "editor.foreground": "#eeffff",
-        "activityBarBadge.background": "#cc0069",
-        "sideBarTitle.foreground": "#bbbbbb"
+        "editor.selectionBackground": "#413d64",
+        "editor.selectionHighlightBorder": "#c91267",
+        "editorGroup.emptyBackground": "#201e31",
+        "editorGroup.dropBackground": "#7e57c273",
+        "editorGroupHeader.noTabsBackground": "#201e31",
+        "activityBarBadge.background": "#c91267",
+        "editorGroupHeader.tabsBackground": "#201e31",
+        "editorGroupHeader.tabsBorder": "#413d64",
+        "gitDecoration.modifiedResourceForeground": "#a2bffc",
+        "gitDecoration.deletedResourceForeground": "#c91267",
+        "gitDecoration.untrackedResourceForeground": "#C3E88D",
+        "gitDecoration.ignoredResourceForeground": "#546E7A",
+        "gitDecoration.conflictingResourceForeground": "#FFCB6B",
+        "walkThrough.embeddedEditorBackground": "#201e31",
+        "debugToolBar.background": "#413d64",
     },
     "tokenColors": [
         {
@@ -15,7 +48,6 @@
                 "punctuation.definition.comment"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#546E7A"
             }
         },
@@ -76,7 +108,7 @@
                 "keyword.other.substitution"
             ],
             "settings": {
-                "foreground": "#89DDFF"
+                "foreground": "#ec9eff"
             }
         },
         {
@@ -209,7 +241,6 @@
                 "variable.language"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#FF5370"
             }
         },
@@ -219,7 +250,6 @@
                 "entity.name.method.js"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#82AAFF"
             }
         },
@@ -249,7 +279,6 @@
                 "text.html.basic entity.other.attribute-name"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#FFCB6B"
             }
         },
@@ -334,7 +363,6 @@
                 "tag.decorator.js punctuation.definition.tag.js"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#82AAFF"
             }
         },
@@ -345,8 +373,153 @@
                 "source.js"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#FF5370",
+            }
+        },
+        {
+            "name": "Import - Names",
+            "scope": [
+                "variable.other.readwrite.js",
+                "variable.other.readwrite.ts",
+                "meta.function.arrow.js",
+                "source.js"
+            ],
+            "settings": {
+                "foreground": "#FFCB6B",
+            }
+        },
+        {
+            "name": "Import - Names",
+            "scope": [
+                "variable.other.readwrite.alias.ts",
+                "variable.other.constant.ts",
+            ],
+            "settings": {
+                "foreground": "#FFCB6B",
+            }
+        },
+        {
+            "name": "Object-literal",
+            "scope": [
+                "meta.object-literal.key.ts",
+            ],
+            "settings": {
+                "foreground": "#FFCB6B",
+            }
+        },
+        {
+            "name": "Control flow",
+            "scope": [
+                "keyword.control.flow.ts",
+                "meta.block.ts",
+                "meta.block.ts",
+                "meta.arrow.ts",
+                "source.js"
+            ],
+            "settings": {
+                "foreground": "#C792EA",
+            }
+        },
+        {
+            "name": "Import - Library",
+            "scope": [
+                "string.quoted.module.js",
+                "source.js"
+            ],
+            "settings": {
+                "foreground": "#6b8eff",
+            }
+        },
+        {
+            "name": "Double quoutes",
+            "scope": [
+                "punctuation.definition.string.begin.js",
+                "punctuation.definition.string.end.js",
+                "source.js"
+            ],
+            "settings": {
+                "foreground": "#6bffff",
+            }
+        },
+        {
+            "name": "Object - Left side - Unquoted",
+            "scope": [
+                "string.unquoted.js",
+                "constant.other.object.key.js",
+                "meta.function.arrow.js",
+                "source.js"
+            ],
+            "settings": {
+                "foreground": "#b3e764",
+            }
+        },
+        {
+            "name": "Variables - Main",
+            "scope": [
+                "variable.other.object.js",
+                "variable.other.object.ts",
+                "meta.embedded.expression.js",
+                "JSXAttrs",
+                "meta.tag.jsx",
+                "meta.function.arrow.js",
+                "source.js"
+            ],
+            "settings": {
+                "foreground": "#ffffff",
+            }
+        },
+        {
+            "name": "Variables - Chained",
+            "scope": [
+                "variable.other.property.js",
+                "variable.other.property.ts"
+            ],
+            "settings": {
+                "foreground": "#9ed8ff",
+            }
+        },
+        {
+            "name": "Logical operators",
+            "scope": [
+                "keyword.operator.logical.js",
+                "keyword.operator.logical.ts",
+                "keyword.operator.comparison.js",
+                "keyword.operator.comparison.ts",
+                "keyword.operator.relational.js",
+                "keyword.operator.relational.ts"
+            ],
+            "settings": {
+                "foreground": "#ec9eff",
+            }
+        },
+        {
+            "name": "Attributes tag",
+            "scope": [
+                "entity.other.attribute-name.jsx",
+                "JSXAttrs",
+                "meta.tag.jsx",
+                "source.js",
+                "meta.embedded.expression.js",
+                "JSXNested",
+                "JSXAttrs",
+                "meta.tag.jsx",
+                "meta.function.arrow.js",
+                "source.js"
+            ],
+            "settings": {
+                "foreground": "#FFCB6B",
+            }
+        },
+        {
+            "name": "Variables - Parameters",
+            "scope": [
+                "variable.parameter.ts",
+                "meta.parameters.ts",
+                "meta.arrow.ts",
+                "source.js"
+            ],
+            "settings": {
+                "foreground": "#82AAFF",
             }
         },
         {
@@ -355,7 +528,6 @@
                 "source.js constant.other.object.key.js string.unquoted.label.js"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#FF5370"
             }
         },
@@ -485,7 +657,6 @@
                 "markup.italic"
             ],
             "settings": {
-                "fontStyle": "italic",
                 "foreground": "#f07178"
             }
         },
@@ -540,7 +711,7 @@
                 "markup.quote"
             ],
             "settings": {
-                "fontStyle": "italic"
+                "fontStyle": "bold"
             }
         },
         {
