@@ -20,12 +20,15 @@
         "titleBar.activeBackground": "#201e31",
         "titleBar.inactiveBackground": "#413d64",
         "sideBarTitle.foreground": "#e1e4e8",
+        "editorHoverWidget.background": "#14131f",
+        "list.hoverBackground": "#413d64",
+        "list.activeSelectionBackground": "#14131f",
+        "list.inactiveSelectionBackground": "#413d64",
         "sideBarSectionHeader.foreground": "#e1e4e8",
         "sideBarSectionHeader.background": "#201e31",
         "sideBarSectionHeader.border": "#413d64",
         "editor.foreground": "#eeffff",
         "editor.selectionBackground": "#413d64",
-        "editor.selectionHighlightBorder": "#c91267",
         "editorGroup.emptyBackground": "#201e31",
         "editorGroup.dropBackground": "#7e57c273",
         "editorGroupHeader.noTabsBackground": "#201e31",
@@ -442,11 +445,12 @@
             }
         },
         {
-            "name": "Double quoutes",
+            "name": "Punctuation",
             "scope": [
                 "punctuation.definition.string.begin.js",
+                "punctuation.definition.string.begin.ts",
                 "punctuation.definition.string.end.js",
-                "source.js"
+                "punctuation.definition.string.end.ts",
             ],
             "settings": {
                 "fontStyle": "italic",

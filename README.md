@@ -18,7 +18,7 @@
   </a>
 </p>
 
-A Visual Studio Code theme that personally allow me to focus more. The idea is that colors can allow us to identify things quicker and that helps me. Better suited for those who like to code late into the night or simply like dark themes. Color choices are personal and as v0.0.1 subject to change with use, experiences and suggestions. ✨
+A Visual Studio Code theme that personally allow me to focus more. The idea is that colors can allow us to identify things quicker and that helps me. Better suited for those who like to code late into the night or simply like dark themes. Color choices are personal and as v0.0.5 subject to change with use, experiences and suggestions. ✨
 
 ## Installation via VS Code
 
