@@ -2,6 +2,13 @@
 
 All notable changes to the "uplift-color-theme" extension are be documented in this file.
 
+## "0.0.6"
+
+- Add colors for terminal
+- Change quote colors
+- Add color to scrollbar
+- Change color input
+
 ## "0.0.5"
 
 - Add sidebar hover and select colors
