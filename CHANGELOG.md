@@ -2,6 +2,11 @@
 
 All notable changes to the "uplift-color-theme" extension are be documented in this file.
 
+## "0.0.7"
+
+- Change selection background
+- Change terminal color to be natural black
+
 ## "0.0.6"
 
 - Add colors for terminal
